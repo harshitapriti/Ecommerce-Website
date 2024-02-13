@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS CDN link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!--JQuery-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!--JS CDN link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--fontawesome cdn-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!--GoogleFont Link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+
+  <!--JS-->
+  <script src="index.js" defer></script>
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <title>Header</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="con1-1">
+
+      <div class="row align-items-start">
+        <div class="col-12 col-sm-3" id="logo">
+          <a href="index.html" class="navbar-brand"><img src="Images/logo.png" alt="Logo"></a>
+
+        </div>
+
+          <div class="col-12 col-sm-7" style="padding-left: 24px;">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" id="search-bar" placeholder="Products name, Category name, etc."
+                aria-label="Example text with button addon" aria-describedby="button-addon1">
+              <button class="btn btn-outline-secondary search-button common-button" type="button"
+                id="button-addon1">Search</button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-1 login" style="padding-left: 24px;">
+            <button type="button" class="btn btn-outline-secondary common-button">
+              <a href="login.html">Login</a>
+            </button>
+          </div>
+          <div class="col-12 col-sm-1 myCart" style="padding-left: 24px;">
+            <a href="cart-page.html" class="cart-icon">
+              <i class="fa-solid fa-lg fa-cart-shopping"></i>
+            </a>
+          </div>
+      </div>
+      <div class="row align-items-end">
+
+
+        <nav class="navbar navbar-expand-lg" id="con1-row2" style="padding-top: 0; padding-bottom: 0;">
+          <div class="container-fluid justify-content-center">
+            <ul class="nav nav-pills justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="products.html">All Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Women</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Wproducts.html">All Products</a></li>
+                  <li><a class="dropdown-item" href="dresses.html">Dresses</a></li>
+                  <li><a class="dropdown-item" href="Wpants.html">Pants</a></li>
+                  <li><a class="dropdown-item" href="skirts.html">Skirts</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                  aria-expanded="false">Men</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Mproducts.html">All Products</a></li>
+                  <li><a class="dropdown-item" href="shirts.html">Shirts</a></li>
+                  <li><a class="dropdown-item" href="Mpants.html">Pants</a></li>
+                  <li><a class="dropdown-item" href="hoodies.html">Hoodies</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kids.html">Kids</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>

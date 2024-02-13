@@ -1,0 +1,382 @@
+/*--------------------------------Index Page and Header and Footer------------------------------------------*/
+.con1{
+    padding-left: 0;
+    padding-right: 0;
+}
+.con1-1{
+    background-color: #f5f5dc;
+    width: 100%;
+}
+#logo img{
+    image-rendering: auto;
+    height: 80px;
+    width: 150px;
+    top: 0;
+}
+
+
+.mb-3{
+    padding-top: 27px;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+#search-bar{
+    border: 1px solid #333333;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+.common-button{
+    border-radius: 40px;
+    background-color: #333333;
+    color: whitesmoke;
+    width: 80px;
+}
+
+.common-button a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.login{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.myCart{
+    padding-top: 33px;
+    padding-bottom: 25px;
+    transition: all 0.3s; /*for a smooth transition*/
+}
+
+.cart-icon {
+    margin-left: 10px;
+    color: #333333;  
+     
+}
+.myCart:hover{
+    transform: scale(1.2);
+}
+.fa-lg{
+    font-size: 1.6em;
+}
+
+#con1-row2{
+    background-color: #8f9779;
+}
+
+.nav-link{
+    color: whitesmoke;
+    font-size: large;
+}
+.nav-link:hover{
+    background-color: #333333;
+    color: whitesmoke;
+}
+.nav-link:active{
+    background-color: #333333;
+    color: whitesmoke;
+}
+.nav-link:focus{
+    color: whitesmoke;
+    border: none;
+}
+
+
+.con1-3{
+    background-color: #f5f5dc;
+    width: 100%;
+    padding: 10px;
+}
+.links a{
+    color: #333333;
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.copyright-info{
+    padding-top: 5px;
+}
+
+/*section*/
+.con1-2-1
+{
+    position: relative;
+}
+#bodyimg{
+    opacity: 0.95;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -100px;
+    width: 100%;
+    height: 700px;
+}
+
+#logoLight{
+    position: absolute;
+    opacity: 0.9;
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Center the overlay image */
+    z-index: 2;
+}
+.tagName{
+    position: absolute;
+    color: white;
+    font-size: 1cm;
+    font-weight: bold;
+    opacity: 0.9;
+    top: 35%;
+    left: 15%;  
+    z-index: 2;
+    text-shadow: 4px 4px 8px #333333;
+}
+
+/*corousel*/
+.con1-2-2{
+    background-color: rgba(224, 223, 223, 0.589);
+    padding: 20px;
+}
+
+.products-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1cm;
+    text-shadow: 2px 2px 4px #333333;
+}
+
+
+
+.carousel-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   /* padding: 10px;*/
+}
+.carousel-item{
+    margin-right: o;
+}
+
+.card-group{
+    /*background-color: rgba(224, 223, 223, 0.589);*/
+    
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+    justify-content: center;
+}
+
+
+.card-group .card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-group .card{
+    margin: 20px; 
+    margin-left: 20px;
+    width: 18rem; 
+}
+.card img{
+    height: 220px;
+}
+.pre-next{
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    background-color: rgba(51, 51, 51, 0.576);
+}
+.pre-btn{
+    left: 1%;
+}
+.next-btn{
+    right: 1%;
+}
+#addcart-btn{
+    background-color: #333333;
+    border: #333333;
+    padding-right: 20px;
+    transition: all 0.3s; /*for a smooth transition*/
+}
+#addcard-text i, span{
+    color: whitesmoke;
+    font-size: large;
+}
+#addcart-btn:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 567px) and (max-width: 767px) {
+    .card:not(:nth-child(-n+2)) {
+        display: none;
+    }
+
+    .card-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 567px) {
+    .card:not(:first-child) {
+        display: none;
+    }
+
+    .card-group{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+/*----------------------------------------All Products Page-------------------------------------------------*/
+
+.col .card{
+    margin: 5px;  
+}
+
+.col .card img{
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1{
+    margin: 10px;
+    padding: 10px;
+}
+
+/*-----------------------------------------Contact us Page---------------------------------------------------*/
+
+#contact-img img{
+    height: 300px;
+    width: 400px;
+    float: right;
+}
+#contact-img{
+    padding-right: 40px;
+}
+#query-form{
+    padding: 10px;
+    padding-top: 0;
+}
+#query-form input{
+    height: 30px;
+}
+#query-form textarea{
+    height: 40px;
+}
+#query-form button{
+    width: 455px;
+}
+#form-box{
+    padding-top: 0;
+    height: 100px;
+    width: 500px;
+}
+#message-box{
+    padding-top: 20px;
+    width: 500px;
+    margin-bottom: 0;
+}
+
+
+.submit-button .btn{
+    border-radius: 40px;
+    background-color: #333333;
+    color: whitesmoke;
+    border: #333333;
+    width: 300px;
+}
+.submit-button .btn:hover{
+    background-color: #504f4f;
+}
+
+.contact-container{
+    background-color: rgba(224, 223, 223, 0.589);
+}
+
+.form-label label{
+    font-weight: bold;
+}
+.form-label input{
+    border: 1px solid #333333;
+}
+.form-label textarea{
+    border: 1px solid #333333;
+}
+
+/*----------------------------------------------Login Page---------------------------------------------------*/
+
+.login-submit-button .btn{
+    border-radius: 40px;
+    background-color: #333333;
+    color: whitesmoke;
+    border: #333333; 
+}
+
+.login-submit-button{
+    padding-top: 10px;
+}
+.login-submit-button .btn:hover{
+    background-color: #504f4f;
+}
+
+.login-form-input input{
+    border: 1px solid #333333;
+}
+
+.login-form-input label{
+    font-weight: bold;
+}
+
+.login-box{
+    background-color: rgba(224, 223, 223, 0.589);
+}
+
+/*---------------------------------------For cart page-------------------------------------------------------*/
+
+.cartimg {
+   height: 200px;
+   width: 200px;
+}
+.cartimg img{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    object-fit: cover;
+}
+
+#cartsummary {
+    height: 200px;
+    width: 300px;
+}
+
+
+.cart-button{
+    background-color: #333333;
+    border: none;
+    color: whitesmoke;
+    width: 80px;
+    transition: all 0.3s;
+}
+
+.cart-button:hover {
+    transform: scale(1.2);
+    background-color: #333333;
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+}
+
+
+
+
+
+
+
+
+
